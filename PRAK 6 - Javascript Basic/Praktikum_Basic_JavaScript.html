@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Javascript1</title>
+</head>
+
+<body>
+    <h2>Praktikum Basic Javascript1</h2>
+    <p>lihat hasil melalui console F12</p>
+
+    <script>
+        const nama = "Muhammad Yasir Fauzan";
+        const nilaiTugas = 80;
+        const nilaiUTS = 70;
+        const nilaiUAS = 90;
+
+        const nilaiAkhir = (nilaiTugas * 30 + nilaiUTS * 30 + nilaiUAS * 40) / 100;
+
+        let status;
+        if (nilaiAkhir >= 60) {
+            status = "LULUS";
+        } else {
+            status = "TIDAK LULUS";
+        }
+
+        console.log("Nama Mahasiswa :", nama);
+        console.log("Nilai Akhir    :", nilaiAkhir);
+        console.log("Status         :", status);
+    </script>
+</body>
+
+</html>
